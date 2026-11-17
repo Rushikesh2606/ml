@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     # --- Model file paths -------------------------------------------------------
     CUSTOM_CNN_MODEL_PATH: str = "app/models/custom_cnn/model.pth"
     RESNET_MODEL_PATH: str = "app/models/resnet/model.pth"
-    EFFICIENTNET_MODEL_PATH: str = "app/models/efficientnet/model.tflite"
+    EFFICIENTNET_MODEL_PATH: str = "app/models/efficientnet/ensemble_model.tflite"
 
     # --- Supporting data files --------------------------------------------------
     CLASS_MAPPING_PATH: str = "app/data/class_mapping.json"
