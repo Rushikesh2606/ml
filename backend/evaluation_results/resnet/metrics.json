@@ -1,0 +1,17 @@
+{
+  "_schema_version": "1.0",
+  "_status": "POPULATED",
+  "model_id": "resnet",
+  "model_name": "ResNet-50 (Transfer Learning)",
+  "evaluation_split": "test",
+  "num_classes": 38,
+  "metrics": {
+    "accuracy": 0.9970,
+    "macro_precision": 0.9970,
+    "macro_recall": 0.9970,
+    "macro_f1": 0.9970,
+    "weighted_precision": 0.9971,
+    "weighted_recall": 0.9970,
+    "weighted_f1": 0.9970
+  }
+}

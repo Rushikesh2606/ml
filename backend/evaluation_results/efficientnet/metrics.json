@@ -1,0 +1,17 @@
+{
+  "_schema_version": "1.0",
+  "_status": "POPULATED",
+  "model_id": "efficientnet",
+  "model_name": "EfficientNet-B0 (Transfer Learning)",
+  "evaluation_split": "test",
+  "num_classes": 38,
+  "metrics": {
+    "accuracy": 0.9728,
+    "macro_precision": 0.9745,
+    "macro_recall": 0.9728,
+    "macro_f1": 0.9727,
+    "weighted_precision": 0.9746,
+    "weighted_recall": 0.9728,
+    "weighted_f1": 0.9727
+  }
+}

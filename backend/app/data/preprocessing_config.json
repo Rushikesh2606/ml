@@ -1,0 +1,60 @@
+{
+  "_schema_version": "1.0",
+  "_status": "POPULATED from checkpoints",
+  "custom_cnn": {
+    "input_size": [
+      128,
+      128
+    ],
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "interpolation": "bilinear",
+    "notes": "image_size=128 from checkpoint. Mean/std assumed ImageNet defaults \u2014 update if training used custom values."
+  },
+  "resnet": {
+    "input_size": [
+      224,
+      224
+    ],
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "interpolation": "bilinear",
+    "notes": "image_size=224, mean/std populated from resnet checkpoint metadata."
+  },
+  "efficientnet": {
+    "input_size": [
+      224,
+      224
+    ],
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "dtype": "float32",
+    "quantized": false,
+    "channel_order": "NHWC",
+    "notes": "Confirmed from model.tflite metadata: input shape [1,224,224,3] float32, not quantized."
+  }
+}
